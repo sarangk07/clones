@@ -3,8 +3,8 @@ import React from 'react'
 function Home() {
   return (
     <div className='bg-neutral-800 text-neutral-100 flex flex-col w-full h-fit' >
-        <section className='flex justify-center lg:justify-end h-[5vh] my-3 mx-5'>
-            X
+        <section className='flex  justify-center lg:justify-end h-[5vh] my-3 mx-5'>
+            <h1 className='moo-lah-lah-regular text-4xl text-lime-200'>ReZto</h1>
         </section>
         <section className='bg-neutral-800 text-neutral-100 flex flex-col items-center justify-center w-full'>
            <div className='relative  w-full h-[100vh]  flex flex-col  justify-center items-center'>
@@ -16,7 +16,7 @@ function Home() {
                   </div>
                   <p className='text-xl uppercase font-bold text-center'> REZTO</p>
                   <h3 className='text-5xl lg:text-7xl font-bold  text-center lg:text-left w-[70%]  lg:w-[40%]'>
-                    Where every ingredient tells a story
+                    Where every ingredient tells a story 
                   </h3>
                   <button className='bg-yellow-500 w-[12rem] h-[3rem] rounded-full font-bold'>Check</button>
                 </div>
